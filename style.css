@@ -1,0 +1,152 @@
+body {
+    font-family: General Sans, sans-serif;
+}
+.bg__img {
+    width: 100%;
+    height: 100dvh;
+    position: fixed;
+    top: 0;
+}
+.bg__logo {
+    position: relative;
+}
+
+
+.bg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.bg__h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: 6rem;
+
+}
+
+
+.payment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 24px;
+    
+}
+
+.payment__met {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px;
+    /* background-color: #00BE61; */
+    color: #1F363C;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 6px;
+
+}
+
+.sepa {
+    width: 60px;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000;
+    margin-top: 1.5rem;
+    text-align: center;
+    text-align: center;
+    color: #00BE61;
+    
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.coming__soon {
+    margin-top: 24px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.copyright {
+    position: fixed;
+    top: auto;
+    right: auto;
+    left: 12px;
+    bottom: 12px;
+    font-size: 1rem;
+    color: #BBFABB;
+}
+
+.email {
+    position: fixed;
+    top: auto;
+    right: 12px;
+    left: auto;
+    bottom: 12px;
+    font-size: 1rem;
+    color: #BBFABB;
+}
+
+.phone {
+    position: fixed;
+    top: auto;
+    left: auto;
+    right: 310px;
+    
+    bottom: 12px;
+    font-size: 1rem;
+    color: #BBFABB;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+    .bg__logo {
+        width: 300px;
+    }
+    .bg__h1 {
+        font-size: 2.5rem;
+        margin-top: 4rem;
+        padding: 0 24px;
+    }
+    .payment__met {
+        font-size: 0.8rem;
+        padding: 6px 8px;
+        margin: 0 8px;
+        margin-top: 24px;
+    }
+    .payment {
+        margin-top: 12px;
+    }
+    .coming__soon {
+        margin-top: 12px;
+    }
+    h2 {
+        font-size: 1.5rem;
+        padding: 8px 12px;
+    }
+    .email {
+        right: 12px;
+    }
+    .phone {
+        right: 12px;
+        bottom: 32px;
+    }
+    
+}
